@@ -3,3 +3,5 @@
   become: yes
   roles:
     - docker_container
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
